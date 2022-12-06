@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD44E54B-E45B-48BE-B7E1-4C1B3BA908D3}</ProjectGuid>
+    <ProjectGuid>{0EDD1985-6D3C-4CFE-A2B4-C04C371A8341}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LINQ</RootNamespace>
-    <AssemblyName>LINQ</AssemblyName>
+    <RootNamespace>ReadingFromFile</RootNamespace>
+    <AssemblyName>ReadingFromFile</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>LINQ.LINQQueryExpression</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContainsOperatorExample.cs" />
-    <Compile Include="LINQQueryExpression.cs" />
+    <Compile Include="ReadingFromFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
