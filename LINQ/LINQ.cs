@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ
 {
-    internal class LINQQueryExpression
+    internal class LINQ
     {
         static void Main(string[] args)
         {
