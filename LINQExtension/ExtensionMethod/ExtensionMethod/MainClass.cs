@@ -52,13 +52,44 @@ namespace ExtensionMethod
             Contains contains = new Contains();
             contains.ContainsMethod();
 
+            Aggregate aggregate = new Aggregate();
+            aggregate.AggregateMethod();
 
+            Average average = new Average();
+            average.AverageMethod();
 
+            Count count= new Count();
+            count.CountMethod();
 
+            Max max = new Max();
+            max.MaxMethod();
 
+            Sum sum = new Sum();
+            sum.SumMethod();
 
+            ElementAt elementAt = new ElementAt();
+            elementAt.ElementAtMethod();
 
+            ElementAtOrDefault elementAtOrDefault = new ElementAtOrDefault();
+            elementAtOrDefault.ElementAtOrDefaultMethod();
 
+            First first = new First();
+            first.FirstMethod();
+
+            FirstOrDefault firstOrDefault= new FirstOrDefault();
+            firstOrDefault.FirstOrDefaultMethod();
+
+            Last last = new Last();
+            last.LastMethod();
+
+            LastOrDefault lastOrDefault = new LastOrDefault();
+            lastOrDefault.LastOrDefaultMethod();
+
+            SingleOperator singleOperator = new SingleOperator();
+            singleOperator.SingleMethod();
+
+            SingleOrDefault singleOrDefault = new SingleOrDefault();
+            singleOrDefault.SingleOrDefaultMethod();
 
 
             Console.ReadLine();
