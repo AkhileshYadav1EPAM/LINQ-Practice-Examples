@@ -91,6 +91,18 @@ namespace ExtensionMethod
             SingleOrDefault singleOrDefault = new SingleOrDefault();
             singleOrDefault.SingleOrDefaultMethod();
 
+            Skip skip = new Skip();
+            skip.SkipMethod();
+
+            SkipWhile skipWhile = new SkipWhile();
+            skipWhile.SkipWhileMethod();
+
+            Take take = new Take();
+            take.TakeMethod();
+
+            TakeWhile takeWhile = new TakeWhile();
+            takeWhile.TakeWhileMethod();
+
 
             Console.ReadLine();
 

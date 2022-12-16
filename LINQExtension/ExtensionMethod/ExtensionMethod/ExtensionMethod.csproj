@@ -70,7 +70,11 @@
     <Compile Include="ExtensionOperatorClasses\Select.cs" />
     <Compile Include="ExtensionOperatorClasses\SingleOperator.cs" />
     <Compile Include="ExtensionOperatorClasses\SingleOrDefault.cs" />
+    <Compile Include="ExtensionOperatorClasses\Skip.cs" />
+    <Compile Include="ExtensionOperatorClasses\SkipWhile.cs" />
     <Compile Include="ExtensionOperatorClasses\Sum.cs" />
+    <Compile Include="ExtensionOperatorClasses\Take.cs" />
+    <Compile Include="ExtensionOperatorClasses\TakeWhile.cs" />
     <Compile Include="ExtensionOperatorClasses\ThenBy.cs" />
     <Compile Include="ExtensionOperatorClasses\ThenByDescending.cs" />
     <Compile Include="ExtensionOperatorClasses\ToLookup.cs" />
